@@ -25,6 +25,9 @@
     ],
     "SVGAPlayer": [
       "~> 2.3"
+    ],
+    "CHCategories/Foundation/NSObject/NSObject+CHBase": [
+
     ]
   }
 }

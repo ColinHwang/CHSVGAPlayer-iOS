@@ -19,4 +19,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency 'YYCache'
   s.dependency 'SVGAPlayer', '~> 2.3'
+  s.dependency 'CHCategories/Foundation/NSObject/NSObject+CHBase'
 end

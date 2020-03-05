@@ -1,0 +1,6 @@
+framework module CHCategories {
+  umbrella header "CHCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}
