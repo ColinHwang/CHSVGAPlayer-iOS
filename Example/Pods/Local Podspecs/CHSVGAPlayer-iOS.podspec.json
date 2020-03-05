@@ -1,8 +1,7 @@
 {
   "name": "CHSVGAPlayer-iOS",
-  "version": "0.1.0",
-  "summary": "A short description of CHSVGAPlayer-iOS.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.1",
+  "summary": "基于YYCache对SVGAPlayeri-iOS缓存策略的优化改造",
   "homepage": "https://github.com/ColinHwang/CHSVGAPlayer-iOS",
   "license": {
     "type": "MIT",
@@ -13,10 +12,16 @@
   },
   "source": {
     "git": "https://github.com/ColinHwang/CHSVGAPlayer-iOS.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CHSVGAPlayer-iOS/Classes/**/*"
+  "source_files": "CHSVGAPlayer-iOS/Classes/**/*",
+  "requires_arc": true,
+  "dependencies": {
+    "YYCache": [
+
+    ]
+  }
 }

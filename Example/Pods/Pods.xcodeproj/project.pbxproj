@@ -7,19 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22EA2D07A397AD47A2148EEF3C1F855D /* Pods-CHSVGAPlayer-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B43EB522D5CBA0D16DB60A739FF62FA /* Pods-CHSVGAPlayer-iOS_Example-dummy.m */; };
-		351714AD7ED4F11A20A740D9A05AC0BC /* Pods-CHSVGAPlayer-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD69B49C7682646E17092F73214B066 /* Pods-CHSVGAPlayer-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		084240607FF180C250E0E30E79103C24 /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55ADD6F65EB0AD5C08C15AEC2EE28345 /* YYCache-dummy.m */; };
+		0B33D2803E54D7A76148BF153123B6EE /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE582E6E48CF7B9372AE69A00F249562 /* YYCache.m */; };
+		17C81310E6A97F7152D40054E0D29718 /* CHSVGAPlayer-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 454BD46FF34D6954BB65C6AA23D8FD68 /* CHSVGAPlayer-iOS-dummy.m */; };
+		2158EBBD4887DF6FCFB1160220E666FA /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B16FB5F181651F6EB0B32DAC132AE0 /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E280C4632F011E470D13493367F63D8 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A44FB325F5249D869AB6ADA2C7B6B9 /* YYDiskCache.m */; };
+		3201E099BC9772BAEEE3D4B3A0C475F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */; };
 		3793E0C77A0B2AE078D9B140F68870A8 /* Pods-CHSVGAPlayer-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 323DABF5C51A8648E7244B542A93CF2D /* Pods-CHSVGAPlayer-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CAA2A2A52030F79375AA164AB6B8F38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */; };
+		44860837B48BEAD4544281FA76E427A3 /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A445AF294BCF1A532478C3EC915D48 /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58A7789B807872FAE567C943516E8AB9 /* Pods-CHSVGAPlayer-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1CD48FE458FF970DBF0E8F9EE57CE2 /* Pods-CHSVGAPlayer-iOS_Tests-dummy.m */; };
-		6A443E83E890549A663428B97CF51CA2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D68EF3C72678F0E73117056442F3 /* ReplaceMe.m */; };
-		9A9E692C54BF86F1318AAFC2E0188B3C /* CHSVGAPlayer-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 454BD46FF34D6954BB65C6AA23D8FD68 /* CHSVGAPlayer-iOS-dummy.m */; };
-		A5762F78DE6FC6CB2BC20AD4CFC52F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B731E2850A40F90D247FA0E243DAA57D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C61C5CC870F589E528BFADBFE26EE07B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DF1B6B06E99134BAC4DACD7F20AF04CB /* CHSVGAPlayer-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B3D7861BB2AB126FF3AAD1F2064086 /* CHSVGAPlayer-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E4AF8D1BA6269B5256A201F46B879FE /* Pods-CHSVGAPlayer-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD69B49C7682646E17092F73214B066 /* Pods-CHSVGAPlayer-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		762D183DC438198752050B4EA510B66F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */; };
+		77F40F47FA7A0AA7D35590B86A857391 /* Pods-CHSVGAPlayer-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B43EB522D5CBA0D16DB60A739FF62FA /* Pods-CHSVGAPlayer-iOS_Example-dummy.m */; };
+		84266F2B7DD03B5225921F30B1972FB8 /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E52D21718D1140B44357C306F59A6F6 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A27DED81A46FAD2F2BDDC54EE7CCF946 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5ED4D2E5D74F7376E62CC8B9597C06D /* UIKit.framework */; };
+		A7C9EE8345F08BB568AE15BC7A8884A2 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 43502036786D35D163AD385CD2103321 /* YYMemoryCache.m */; };
+		B731E2850A40F90D247FA0E243DAA57D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */; };
+		BCFF71B275A7138B7A04787ACB2C6EEF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B0D68EF3C72678F0E73117056442F3 /* ReplaceMe.m */; };
+		BEA44B0C1A987B9815CA977FE4BFB97E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6020F6AC5FF7E4AAB556A98CC6A62E0D /* CoreFoundation.framework */; };
+		C51C3CD12C605F4CF56B4DDE0A402684 /* YYCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD5976461524F61C220DF03556285EC /* YYCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7571FEF238E0F8AEAC203E1946EDDB9 /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E415BD870B885BA9049FF16FB41174 /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDDEB8A25DC708897C7A54C4BC216358 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = E1689464565CA9031BADC8679B2BEE58 /* YYKVStorage.m */; };
+		F30E6E77E2D377B6CEEA02457E4EB94B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939CDEFEAD14B44CA3A82FDA904F3121 /* QuartzCore.framework */; };
+		F9681AFC93CEA977C214BA4DFD0C9225 /* YYCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCE2809A69A7076DD317F6EF94FD8FA /* YYCache.framework */; };
+		FD637BE58B45EB13C22B3250C79A0DAF /* CHSVGAPlayer-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B3D7861BB2AB126FF3AAD1F2064086 /* CHSVGAPlayer-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		16AB6A88F4556111FACC30C42F05AD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CB0ECB4AB8B17C899A0AAC169C1A23;
+			remoteInfo = "CHSVGAPlayer-iOS";
+		};
 		44C7FD8AFB8A32EDDB1266C25993D02D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -27,31 +49,50 @@
 			remoteGlobalIDString = 88F82E0D6055687708E58C3FDAF76BA8;
 			remoteInfo = "Pods-CHSVGAPlayer-iOS_Example";
 		};
-		DB4E1B8E770B26C97825147C89FC4EB2 /* PBXContainerItemProxy */ = {
+		83CBFE05BFB3855BD5E02A95E2A0C3B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A7CB0ECB4AB8B17C899A0AAC169C1A23;
-			remoteInfo = "CHSVGAPlayer-iOS";
+			remoteGlobalIDString = CFDAE6EB02F58B9A37CADCF439AE6082;
+			remoteInfo = YYCache;
+		};
+		90F027A19583598FAE465B6AFCF2BDA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDAE6EB02F58B9A37CADCF439AE6082;
+			remoteInfo = YYCache;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0F9450A5E9C8E1966EC5B1C92CDD416B /* Pods-CHSVGAPlayer-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHSVGAPlayer-iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		1BD5976461524F61C220DF03556285EC /* YYCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-umbrella.h"; sourceTree = "<group>"; };
 		1E5902AEAF5047CACEB18410DE0613F3 /* CHSVGAPlayer_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHSVGAPlayer_iOS.framework; path = "CHSVGAPlayer-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1CD48FE458FF970DBF0E8F9EE57CE2 /* Pods-CHSVGAPlayer-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHSVGAPlayer-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		323DABF5C51A8648E7244B542A93CF2D /* Pods-CHSVGAPlayer-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHSVGAPlayer-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3B065714BFED72767FA9C6C0E5136089 /* Pods-CHSVGAPlayer-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHSVGAPlayer-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		43502036786D35D163AD385CD2103321 /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYCache/YYMemoryCache.m; sourceTree = "<group>"; };
 		44FA4694040150814D10F7D007C17FDE /* CHSVGAPlayer-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CHSVGAPlayer-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		454BD46FF34D6954BB65C6AA23D8FD68 /* CHSVGAPlayer-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHSVGAPlayer-iOS-dummy.m"; sourceTree = "<group>"; };
+		48ACF38225AF5129416A1F090F6D3286 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYCache.framework; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B43EB522D5CBA0D16DB60A739FF62FA /* Pods-CHSVGAPlayer-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHSVGAPlayer-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		55ADD6F65EB0AD5C08C15AEC2EE28345 /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
+		5CCE2809A69A7076DD317F6EF94FD8FA /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6020F6AC5FF7E4AAB556A98CC6A62E0D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		62A44FB325F5249D869AB6ADA2C7B6B9 /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
+		63A445AF294BCF1A532478C3EC915D48 /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
+		63E415BD870B885BA9049FF16FB41174 /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
 		6CD69B49C7682646E17092F73214B066 /* Pods-CHSVGAPlayer-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHSVGAPlayer-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		6E52D21718D1140B44357C306F59A6F6 /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
+		6EE500D1CD2A0AF2531DF55B8A478AE4 /* YYCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.debug.xcconfig; sourceTree = "<group>"; };
 		798B436DC07592E3B3CF120C5582872E /* Pods-CHSVGAPlayer-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHSVGAPlayer-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		79CAAB4890EC2FDE2B976C8602180175 /* Pods-CHSVGAPlayer-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHSVGAPlayer-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8495402AEFE379CBDB24BDC1E3520248 /* Pods-CHSVGAPlayer-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHSVGAPlayer-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DF12B26BBE95D08FA37FE344243AFEC /* CHSVGAPlayer-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "CHSVGAPlayer-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		90B0D68EF3C72678F0E73117056442F3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "CHSVGAPlayer-iOS/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		939CDEFEAD14B44CA3A82FDA904F3121 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		95FE26373A60148929C79B02C6E93931 /* Pods-CHSVGAPlayer-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHSVGAPlayer-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1A1E1E6B854C3D1A2EA98A0E7B0C672 /* Pods-CHSVGAPlayer-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHSVGAPlayer-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -65,19 +106,47 @@
 		C35971C06EA2A7A72E72E74B7FB57954 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C6DCDF515C40E0449908DA9FBADF7767 /* Pods-CHSVGAPlayer-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHSVGAPlayer-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CE9C16230715943AD3114D8F690C4F20 /* Pods-CHSVGAPlayer-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHSVGAPlayer-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3FE99D97EDC8F447A2CC0A93F2094E5 /* YYCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.release.xcconfig; sourceTree = "<group>"; };
 		D8E6071633795AC3CF0C0B9AF6A3180F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DB13F8EA7E653C121EAA42970FD4B7E6 /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
+		DB475550AC173995C9CC2AB94E9DF537 /* YYCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYCache.modulemap; sourceTree = "<group>"; };
+		E1689464565CA9031BADC8679B2BEE58 /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYCache/YYKVStorage.m; sourceTree = "<group>"; };
 		E2014580A82DF912496161D7A1A5B3A9 /* Pods-CHSVGAPlayer-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHSVGAPlayer-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E5ED4D2E5D74F7376E62CC8B9597C06D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EF9BB8C3B05089CD18441526F5209B90 /* Pods_CHSVGAPlayer_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHSVGAPlayer_iOS_Tests.framework; path = "Pods-CHSVGAPlayer-iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B16FB5F181651F6EB0B32DAC132AE0 /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
+		F56D05F9F6E0CA54B72350AEFDA4CFCF /* YYCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYCache-Info.plist"; sourceTree = "<group>"; };
 		F9FB03E622B25FDD2C49156D11765DBA /* Pods-CHSVGAPlayer-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHSVGAPlayer-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FE3A7A1E8D74E7E4C6DF607B079BD728 /* CHSVGAPlayer-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CHSVGAPlayer-iOS.modulemap"; sourceTree = "<group>"; };
+		FE582E6E48CF7B9372AE69A00F249562 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9AD6928F0D3D6FEC92D42584FA4A0A4C /* Frameworks */ = {
+		3C005F30C4C3132A6D3223082B321CAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5762F78DE6FC6CB2BC20AD4CFC52F51 /* Foundation.framework in Frameworks */,
+				762D183DC438198752050B4EA510B66F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8D1835AE72652B067ECF5B5A4DD454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3201E099BC9772BAEEE3D4B3A0C475F6 /* Foundation.framework in Frameworks */,
+				F9681AFC93CEA977C214BA4DFD0C9225 /* YYCache.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618A7761E036BC754800B0E69174D5CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA44B0C1A987B9815CA977FE4BFB97E /* CoreFoundation.framework in Frameworks */,
+				3CAA2A2A52030F79375AA164AB6B8F38 /* Foundation.framework in Frameworks */,
+				F30E6E77E2D377B6CEEA02457E4EB94B /* QuartzCore.framework in Frameworks */,
+				A27DED81A46FAD2F2BDDC54EE7CCF946 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,17 +158,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2F875D49FF07BCBE0D7A6430A77C66B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C61C5CC870F589E528BFADBFE26EE07B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B1BF91E6C8A95ECB46FC7726C546E9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CCE2809A69A7076DD317F6EF94FD8FA /* YYCache.framework */,
+				4399FE35D748924AE160D1AEB1F52A9D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3DBC17FCA6ADCDAF8D8AF728F710E833 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +177,17 @@
 				46A65E588801AA393DB759B4DF636241 /* Pods-CHSVGAPlayer-iOS_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4399FE35D748924AE160D1AEB1F52A9D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6020F6AC5FF7E4AAB556A98CC6A62E0D /* CoreFoundation.framework */,
+				60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */,
+				939CDEFEAD14B44CA3A82FDA904F3121 /* QuartzCore.framework */,
+				E5ED4D2E5D74F7376E62CC8B9597C06D /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		46A65E588801AA393DB759B4DF636241 /* Pods-CHSVGAPlayer-iOS_Tests */ = {
@@ -136,6 +217,23 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		656DBDC3D9EAB89D16970CD296B030F1 /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+				63A445AF294BCF1A532478C3EC915D48 /* YYCache.h */,
+				FE582E6E48CF7B9372AE69A00F249562 /* YYCache.m */,
+				63E415BD870B885BA9049FF16FB41174 /* YYDiskCache.h */,
+				62A44FB325F5249D869AB6ADA2C7B6B9 /* YYDiskCache.m */,
+				6E52D21718D1140B44357C306F59A6F6 /* YYKVStorage.h */,
+				E1689464565CA9031BADC8679B2BEE58 /* YYKVStorage.m */,
+				F3B16FB5F181651F6EB0B32DAC132AE0 /* YYMemoryCache.h */,
+				43502036786D35D163AD385CD2103321 /* YYMemoryCache.m */,
+				BA39D5B99553EE779B1F4D8EA5FD0BEB /* Support Files */,
+			);
+			name = YYCache;
+			path = YYCache;
+			sourceTree = "<group>";
+		};
 		7C12D8701CCA4F75791E8BFFC15F4EE3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +250,17 @@
 				4E05004AC33B2A8FDAD2E1F243EDA399 /* CHSVGAPlayer-iOS */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9053E42A9843DC55890B750E003F092D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E5902AEAF5047CACEB18410DE0613F3 /* CHSVGAPlayer_iOS.framework */,
+				A57E6E5DC6940D49301D5263B518452C /* Pods_CHSVGAPlayer_iOS_Example.framework */,
+				EF9BB8C3B05089CD18441526F5209B90 /* Pods_CHSVGAPlayer_iOS_Tests.framework */,
+				48ACF38225AF5129416A1F090F6D3286 /* YYCache.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		985A82CFB9F2D84EF9A0550A6AFA11B5 /* Pods-CHSVGAPlayer-iOS_Example */ = {
@@ -171,22 +280,27 @@
 			path = "Target Support Files/Pods-CHSVGAPlayer-iOS_Example";
 			sourceTree = "<group>";
 		};
-		ABFBA5D029464F1DFD20472FB8A25B4B /* Products */ = {
+		BA39D5B99553EE779B1F4D8EA5FD0BEB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1E5902AEAF5047CACEB18410DE0613F3 /* CHSVGAPlayer_iOS.framework */,
-				A57E6E5DC6940D49301D5263B518452C /* Pods_CHSVGAPlayer_iOS_Example.framework */,
-				EF9BB8C3B05089CD18441526F5209B90 /* Pods_CHSVGAPlayer_iOS_Tests.framework */,
+				DB475550AC173995C9CC2AB94E9DF537 /* YYCache.modulemap */,
+				55ADD6F65EB0AD5C08C15AEC2EE28345 /* YYCache-dummy.m */,
+				F56D05F9F6E0CA54B72350AEFDA4CFCF /* YYCache-Info.plist */,
+				DB13F8EA7E653C121EAA42970FD4B7E6 /* YYCache-prefix.pch */,
+				1BD5976461524F61C220DF03556285EC /* YYCache-umbrella.h */,
+				6EE500D1CD2A0AF2531DF55B8A478AE4 /* YYCache.debug.xcconfig */,
+				D3FE99D97EDC8F447A2CC0A93F2094E5 /* YYCache.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/YYCache";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		C62D92DA920680A76B802D5CF54F9EDB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				656DBDC3D9EAB89D16970CD296B030F1 /* YYCache */,
 			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -194,18 +308,11 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				8BD8C87F535F8A8F108321FD5AC53835 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				ABFBA5D029464F1DFD20472FB8A25B4B /* Products */,
+				0B1BF91E6C8A95ECB46FC7726C546E9C /* Frameworks */,
+				C62D92DA920680A76B802D5CF54F9EDB /* Pods */,
+				9053E42A9843DC55890B750E003F092D /* Products */,
 				3DBC17FCA6ADCDAF8D8AF728F710E833 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F4165EBF27E4C2DDBE7C717DD84E0E90 /* Support Files */ = {
@@ -226,27 +333,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		28632CB91DA0F3750E5056077F24BC54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD637BE58B45EB13C22B3250C79A0DAF /* CHSVGAPlayer-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9CA307434B31E9B49AB7B65533D90B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51C3CD12C605F4CF56B4DDE0A402684 /* YYCache-umbrella.h in Headers */,
+				44860837B48BEAD4544281FA76E427A3 /* YYCache.h in Headers */,
+				D7571FEF238E0F8AEAC203E1946EDDB9 /* YYDiskCache.h in Headers */,
+				84266F2B7DD03B5225921F30B1972FB8 /* YYKVStorage.h in Headers */,
+				2158EBBD4887DF6FCFB1160220E666FA /* YYMemoryCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D9A106EA630F149254B0D7164EEB66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4AF8D1BA6269B5256A201F46B879FE /* Pods-CHSVGAPlayer-iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D68E8EDDD4BFF9CCF6411911FA811FDA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3793E0C77A0B2AE078D9B140F68870A8 /* Pods-CHSVGAPlayer-iOS_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D818F3607C54CB69F16879DFF83B2C6A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				351714AD7ED4F11A20A740D9A05AC0BC /* Pods-CHSVGAPlayer-iOS_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9C4DF5C44FB2F8316C2FAAD16D837EA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF1B6B06E99134BAC4DACD7F20AF04CB /* CHSVGAPlayer-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,17 +393,18 @@
 		};
 		88F82E0D6055687708E58C3FDAF76BA8 /* Pods-CHSVGAPlayer-iOS_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F2F202AA99B8A5AB2014056799282F1 /* Build configuration list for PBXNativeTarget "Pods-CHSVGAPlayer-iOS_Example" */;
+			buildConfigurationList = CA065C51D589AEAD5459F9C28E4E6327 /* Build configuration list for PBXNativeTarget "Pods-CHSVGAPlayer-iOS_Example" */;
 			buildPhases = (
-				D818F3607C54CB69F16879DFF83B2C6A /* Headers */,
-				60E8E7DAF45FF11C71E190993750455F /* Sources */,
-				E2F875D49FF07BCBE0D7A6430A77C66B /* Frameworks */,
-				335BE01884DBBDD03D799D0FA6EAF174 /* Resources */,
+				C4D9A106EA630F149254B0D7164EEB66 /* Headers */,
+				80019A1B3385D5D9CACC886648FC9ECD /* Sources */,
+				3C005F30C4C3132A6D3223082B321CAC /* Frameworks */,
+				6E6D799ECD4C484E79AB8A424FFDFBC9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F5DD694D14D066F03627FE25E28D35A1 /* PBXTargetDependency */,
+				167A44D11CCAE459EBD284143820289A /* PBXTargetDependency */,
+				00A827A03FC76767A33DBCA187DAE39D /* PBXTargetDependency */,
 			);
 			name = "Pods-CHSVGAPlayer-iOS_Example";
 			productName = "Pods-CHSVGAPlayer-iOS_Example";
@@ -293,20 +413,39 @@
 		};
 		A7CB0ECB4AB8B17C899A0AAC169C1A23 /* CHSVGAPlayer-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDDE7AF9E3A64C13BF92D62C61710D90 /* Build configuration list for PBXNativeTarget "CHSVGAPlayer-iOS" */;
+			buildConfigurationList = 25C6477BEBD1FBED054EC587B27FECCF /* Build configuration list for PBXNativeTarget "CHSVGAPlayer-iOS" */;
 			buildPhases = (
-				E9C4DF5C44FB2F8316C2FAAD16D837EA /* Headers */,
-				34F16EB45C5D965DD12B6D5CEBC48EFC /* Sources */,
-				9AD6928F0D3D6FEC92D42584FA4A0A4C /* Frameworks */,
-				04FCAFCD880A1364D4812A1A9310EF48 /* Resources */,
+				28632CB91DA0F3750E5056077F24BC54 /* Headers */,
+				3D5183104491C4499533BA001A81D97E /* Sources */,
+				5D8D1835AE72652B067ECF5B5A4DD454 /* Frameworks */,
+				D706B11AFC7BA673697ACBA353E8B2ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F5C4967A3CD8B59E9410D1099321A03 /* PBXTargetDependency */,
+			);
+			name = "CHSVGAPlayer-iOS";
+			productName = "CHSVGAPlayer-iOS";
+			productReference = 1E5902AEAF5047CACEB18410DE0613F3 /* CHSVGAPlayer_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501952892E5A32728158B7920FEE7CBB /* Build configuration list for PBXNativeTarget "YYCache" */;
+			buildPhases = (
+				5A9CA307434B31E9B49AB7B65533D90B /* Headers */,
+				8D88A4F547C5A1C64CAB8972DF9E2008 /* Sources */,
+				618A7761E036BC754800B0E69174D5CF /* Frameworks */,
+				3932DE0EA0C64432E8A1F4FA0E7B42FF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CHSVGAPlayer-iOS";
-			productName = "CHSVGAPlayer-iOS";
-			productReference = 1E5902AEAF5047CACEB18410DE0613F3 /* CHSVGAPlayer_iOS.framework */;
+			name = YYCache;
+			productName = YYCache;
+			productReference = 48ACF38225AF5129416A1F090F6D3286 /* YYCache.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,25 +466,19 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = ABFBA5D029464F1DFD20472FB8A25B4B /* Products */;
+			productRefGroup = 9053E42A9843DC55890B750E003F092D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A7CB0ECB4AB8B17C899A0AAC169C1A23 /* CHSVGAPlayer-iOS */,
 				88F82E0D6055687708E58C3FDAF76BA8 /* Pods-CHSVGAPlayer-iOS_Example */,
 				8619BAC62EB8E33D03F475F464E50617 /* Pods-CHSVGAPlayer-iOS_Tests */,
+				CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04FCAFCD880A1364D4812A1A9310EF48 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		170F294B12BD250E29CF8EB9F132E13D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,7 +486,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		335BE01884DBBDD03D799D0FA6EAF174 /* Resources */ = {
+		3932DE0EA0C64432E8A1F4FA0E7B42FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6D799ECD4C484E79AB8A424FFDFBC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D706B11AFC7BA673697ACBA353E8B2ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +510,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		34F16EB45C5D965DD12B6D5CEBC48EFC /* Sources */ = {
+		3D5183104491C4499533BA001A81D97E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A9E692C54BF86F1318AAFC2E0188B3C /* CHSVGAPlayer-iOS-dummy.m in Sources */,
-				6A443E83E890549A663428B97CF51CA2 /* ReplaceMe.m in Sources */,
+				17C81310E6A97F7152D40054E0D29718 /* CHSVGAPlayer-iOS-dummy.m in Sources */,
+				BCFF71B275A7138B7A04787ACB2C6EEF /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60E8E7DAF45FF11C71E190993750455F /* Sources */ = {
+		80019A1B3385D5D9CACC886648FC9ECD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22EA2D07A397AD47A2148EEF3C1F855D /* Pods-CHSVGAPlayer-iOS_Example-dummy.m in Sources */,
+				77F40F47FA7A0AA7D35590B86A857391 /* Pods-CHSVGAPlayer-iOS_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,57 +535,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8D88A4F547C5A1C64CAB8972DF9E2008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084240607FF180C250E0E30E79103C24 /* YYCache-dummy.m in Sources */,
+				0B33D2803E54D7A76148BF153123B6EE /* YYCache.m in Sources */,
+				2E280C4632F011E470D13493367F63D8 /* YYDiskCache.m in Sources */,
+				EDDEB8A25DC708897C7A54C4BC216358 /* YYKVStorage.m in Sources */,
+				A7C9EE8345F08BB568AE15BC7A8884A2 /* YYMemoryCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		00A827A03FC76767A33DBCA187DAE39D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			target = CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */;
+			targetProxy = 83CBFE05BFB3855BD5E02A95E2A0C3B9 /* PBXContainerItemProxy */;
+		};
+		167A44D11CCAE459EBD284143820289A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CHSVGAPlayer-iOS";
+			target = A7CB0ECB4AB8B17C899A0AAC169C1A23 /* CHSVGAPlayer-iOS */;
+			targetProxy = 16AB6A88F4556111FACC30C42F05AD66 /* PBXContainerItemProxy */;
+		};
+		7F5C4967A3CD8B59E9410D1099321A03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			target = CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */;
+			targetProxy = 90F027A19583598FAE465B6AFCF2BDA6 /* PBXContainerItemProxy */;
+		};
 		92B4A37FD9738CB04367CC9C1640158D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CHSVGAPlayer-iOS_Example";
 			target = 88F82E0D6055687708E58C3FDAF76BA8 /* Pods-CHSVGAPlayer-iOS_Example */;
 			targetProxy = 44C7FD8AFB8A32EDDB1266C25993D02D /* PBXContainerItemProxy */;
 		};
-		F5DD694D14D066F03627FE25E28D35A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CHSVGAPlayer-iOS";
-			target = A7CB0ECB4AB8B17C899A0AAC169C1A23 /* CHSVGAPlayer-iOS */;
-			targetProxy = DB4E1B8E770B26C97825147C89FC4EB2 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		21DDEC2F6F2127C6FB224007356A0097 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2014580A82DF912496161D7A1A5B3A9 /* Pods-CHSVGAPlayer-iOS_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CHSVGAPlayer-iOS_Example/Pods-CHSVGAPlayer-iOS_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CHSVGAPlayer-iOS_Example/Pods-CHSVGAPlayer-iOS_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		277F846CE838FBD3CD7F8122BB451805 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8495402AEFE379CBDB24BDC1E3520248 /* Pods-CHSVGAPlayer-iOS_Tests.debug.xcconfig */;
@@ -472,7 +610,7 @@
 			};
 			name = Debug;
 		};
-		28A06A0A6899584D812A8B71CD00F64D /* Release */ = {
+		3AF9AC9DD74F2F65A78F306487DBF41D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE9172EA7AF4A63D07AFE4610A529D10 /* CHSVGAPlayer-iOS.release.xcconfig */;
 			buildSettings = {
@@ -503,6 +641,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		4BB1F1E3AFC91622AB125CBDCBA4ABA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FA4694040150814D10F7D007C17FDE /* CHSVGAPlayer-iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHSVGAPlayer-iOS/CHSVGAPlayer-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHSVGAPlayer-iOS/CHSVGAPlayer-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHSVGAPlayer-iOS/CHSVGAPlayer-iOS.modulemap";
+				PRODUCT_MODULE_NAME = CHSVGAPlayer_iOS;
+				PRODUCT_NAME = CHSVGAPlayer_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -628,9 +797,76 @@
 			};
 			name = Debug;
 		};
-		8937BA4863CAE3D21E7181213F2075D3 /* Debug */ = {
+		8CFD015699871F0B96DC6B905BD1B996 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44FA4694040150814D10F7D007C17FDE /* CHSVGAPlayer-iOS.debug.xcconfig */;
+			baseConfigurationReference = F9FB03E622B25FDD2C49156D11765DBA /* Pods-CHSVGAPlayer-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHSVGAPlayer-iOS_Example/Pods-CHSVGAPlayer-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHSVGAPlayer-iOS_Example/Pods-CHSVGAPlayer-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A391CD24842F3D43BF5AF20733C153A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2014580A82DF912496161D7A1A5B3A9 /* Pods-CHSVGAPlayer-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHSVGAPlayer-iOS_Example/Pods-CHSVGAPlayer-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHSVGAPlayer-iOS_Example/Pods-CHSVGAPlayer-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7888FD3E55E64AC8A46DD43D477D48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3FE99D97EDC8F447A2CC0A93F2094E5 /* YYCache.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -641,23 +877,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CHSVGAPlayer-iOS/CHSVGAPlayer-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CHSVGAPlayer-iOS/CHSVGAPlayer-iOS-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYCache/YYCache-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CHSVGAPlayer-iOS/CHSVGAPlayer-iOS.modulemap";
-				PRODUCT_MODULE_NAME = CHSVGAPlayer_iOS;
-				PRODUCT_NAME = CHSVGAPlayer_iOS;
+				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
+				PRODUCT_MODULE_NAME = YYCache;
+				PRODUCT_NAME = YYCache;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B2AF6970EA3F80CA4E390220ADBC2520 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -693,11 +930,10 @@
 			};
 			name = Release;
 		};
-		D82CFB6B693B2F8FDCFAD189C3BE759B /* Release */ = {
+		E05D57617AA29C8A3663951779B4CCE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9FB03E622B25FDD2C49156D11765DBA /* Pods-CHSVGAPlayer-iOS_Example.release.xcconfig */;
+			baseConfigurationReference = 6EE500D1CD2A0AF2531DF55B8A478AE4 /* YYCache.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -707,34 +943,32 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CHSVGAPlayer-iOS_Example/Pods-CHSVGAPlayer-iOS_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYCache/YYCache-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CHSVGAPlayer-iOS_Example/Pods-CHSVGAPlayer-iOS_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
+				PRODUCT_MODULE_NAME = YYCache;
+				PRODUCT_NAME = YYCache;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F2F202AA99B8A5AB2014056799282F1 /* Build configuration list for PBXNativeTarget "Pods-CHSVGAPlayer-iOS_Example" */ = {
+		25C6477BEBD1FBED054EC587B27FECCF /* Build configuration list for PBXNativeTarget "CHSVGAPlayer-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21DDEC2F6F2127C6FB224007356A0097 /* Debug */,
-				D82CFB6B693B2F8FDCFAD189C3BE759B /* Release */,
+				4BB1F1E3AFC91622AB125CBDCBA4ABA4 /* Debug */,
+				3AF9AC9DD74F2F65A78F306487DBF41D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -748,6 +982,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		501952892E5A32728158B7920FEE7CBB /* Build configuration list for PBXNativeTarget "YYCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05D57617AA29C8A3663951779B4CCE9 /* Debug */,
+				A7888FD3E55E64AC8A46DD43D477D48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		95650C967054041C1370A41F556A529D /* Build configuration list for PBXNativeTarget "Pods-CHSVGAPlayer-iOS_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -757,11 +1000,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDDE7AF9E3A64C13BF92D62C61710D90 /* Build configuration list for PBXNativeTarget "CHSVGAPlayer-iOS" */ = {
+		CA065C51D589AEAD5459F9C28E4E6327 /* Build configuration list for PBXNativeTarget "Pods-CHSVGAPlayer-iOS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8937BA4863CAE3D21E7181213F2075D3 /* Debug */,
-				28A06A0A6899584D812A8B71CD00F64D /* Release */,
+				A391CD24842F3D43BF5AF20733C153A2 /* Debug */,
+				8CFD015699871F0B96DC6B905BD1B996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

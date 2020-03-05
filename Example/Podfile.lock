@@ -1,16 +1,23 @@
 PODS:
-  - CHSVGAPlayer-iOS (0.1.0)
+  - CHSVGAPlayer-iOS (0.0.1):
+    - YYCache
+  - YYCache (1.0.4)
 
 DEPENDENCIES:
   - CHSVGAPlayer-iOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - YYCache
 
 EXTERNAL SOURCES:
   CHSVGAPlayer-iOS:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CHSVGAPlayer-iOS: bec4fefd8a91c611b39889fbfb2c34f38899685a
+  CHSVGAPlayer-iOS: 930daed0d7fef42c285548b76dba6ca72c335423
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 28e5b048f0a3e24fc2e93215afb47bb123977d78
+PODFILE CHECKSUM: aba9a777669e350c03df4aea3fa530789ade63f9
 
 COCOAPODS: 1.9.0
