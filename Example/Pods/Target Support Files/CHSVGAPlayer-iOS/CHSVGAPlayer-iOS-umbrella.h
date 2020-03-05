@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "SVGAParser+CHSVGA.h"
+#import "SVGAVideoEntity+CHSVGA.h"
 
 FOUNDATION_EXPORT double CHSVGAPlayer_iOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char CHSVGAPlayer_iOSVersionString[];

@@ -20,4 +20,7 @@ Pod::Spec.new do |s|
   s.dependency 'YYCache'
   s.dependency 'SVGAPlayer', '~> 2.3'
   s.dependency 'CHCategories/Foundation/NSObject/NSObject+CHBase'
+  s.pod_target_xcconfig = {
+    'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1',
+  }
 end

@@ -20,7 +20,7 @@ DEPENDENCIES:
   - CHSVGAPlayer-iOS (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - CHCategories
     - Protobuf
     - SSZipArchive
@@ -33,12 +33,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CHCategories: 5048e3bcbdc8df476a808cb9bb5041334acd62e5
-  CHSVGAPlayer-iOS: 0c9b2122f6d7f232346c24ae7f2e80403fb82167
+  CHSVGAPlayer-iOS: d161a59fefa6c658a4ff69623077943fac40c40c
   Protobuf: 176220c526ad8bd09ab1fb40a978eac3fef665f7
   SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
   SVGAPlayer: c666a7886b72ee77d494c49aa4fd61df175dd103
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 669640f73046f7fd06acc769102b1aa7541eb8df
+PODFILE CHECKSUM: aba9a777669e350c03df4aea3fa530789ade63f9
 
 COCOAPODS: 1.9.0

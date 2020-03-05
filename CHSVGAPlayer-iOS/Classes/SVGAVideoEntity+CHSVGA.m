@@ -9,7 +9,7 @@
 #import <CHCategories/NSObject+CHBase.h>
 #import <YYCache/YYCache.h>
 
-static YYCache *jxVideoCache;
+static YYCache *chVideoCache;
 
 @implementation SVGAVideoEntity (CHSVGA)
 
@@ -17,31 +17,31 @@ static YYCache *jxVideoCache;
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        jxVideoCache = [YYCache cacheWithName:@"JX_SVGA_CACHE"];
+        chVideoCache = [YYCache cacheWithName:@"CH_SVGA_CACHE"];
         [self chsvga_setupMemoryCacheCostLimit:10 * 1024];
     
-        [self jx_swizzleClassMethod:@selector(readCache:) withNewMethod:@selector(_jx_svga_readCache:)];
-        [self jx_swizzleInstanceMethod:@selector(saveCache:) withNewMethod:@selector(_jx_svga_saveCache:)];
+        [self ch_swizzleClassMethod:@selector(readCache:) withNewMethod:@selector(_ch_svga_readCache:)];
+        [self ch_swizzleInstanceMethod:@selector(saveCache:) withNewMethod:@selector(_ch_svga_saveCache:)];
     });
 }
 
 #pragma mark - Public methods
 
 + (void)chsvga_clearMemoryCache {
-    [jxVideoCache.memoryCache removeAllObjects];
+    [chVideoCache.memoryCache removeAllObjects];
 }
 
 + (void)chsvga_setupMemoryCacheCostLimit:(NSUInteger)costLimit {
-    [jxVideoCache.memoryCache setCostLimit:costLimit];
+    [chVideoCache.memoryCache setCostLimit:costLimit];
 }
 
 #pragma mark - Swizzle methods
-+ (SVGAVideoEntity *)_jx_svga_readCache:(NSString *)cacheKey {
-    return (SVGAVideoEntity *)[jxVideoCache objectForKey:cacheKey];
++ (SVGAVideoEntity *)_ch_svga_readCache:(NSString *)cacheKey {
+    return (SVGAVideoEntity *)[chVideoCache objectForKey:cacheKey];
 }
 
-- (void)_jx_svga_saveCache:(NSString *)cacheKey {
-    [jxVideoCache setObject:self forKey:cacheKey];
+- (void)_ch_svga_saveCache:(NSString *)cacheKey {
+    [chVideoCache setObject:self forKey:cacheKey];
 }
 
 

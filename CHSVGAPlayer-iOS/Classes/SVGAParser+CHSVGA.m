@@ -29,19 +29,19 @@
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        [self jx_swizzleInstanceMethod:@selector(init) withNewMethod:@selector(_jx_svga_init)];
-        [self jx_swizzleInstanceMethod:@selector(parseWithURLRequest:completionBlock:failureBlock:) withNewMethod:@selector(_jx_svga_parseWithURLRequest:completionBlock:failureBlock:)];
+        [self ch_swizzleInstanceMethod:@selector(init) withNewMethod:@selector(_ch_svga_init)];
+        [self ch_swizzleInstanceMethod:@selector(parseWithURLRequest:completionBlock:failureBlock:) withNewMethod:@selector(_ch_svga_parseWithURLRequest:completionBlock:failureBlock:)];
     });
 }
 
 #pragma mark - Swizzle methods
-- (instancetype)_jx_svga_init {
-    SVGAParser *instance = [self _jx_svga_init];
+- (instancetype)_ch_svga_init {
+    SVGAParser *instance = [self _ch_svga_init];
     instance.enabledMemoryCache = YES;
     return instance;
 }
 
-- (void)_jx_svga_parseWithURLRequest:(NSURLRequest *)URLRequest completionBlock:(void (^)(SVGAVideoEntity * _Nullable))completionBlock failureBlock:(void (^)(NSError * _Nullable))failureBlock {
+- (void)_ch_svga_parseWithURLRequest:(NSURLRequest *)URLRequest completionBlock:(void (^)(SVGAVideoEntity * _Nullable))completionBlock failureBlock:(void (^)(NSError * _Nullable))failureBlock {
     if ([[NSFileManager defaultManager] fileExistsAtPath:[self cacheDirectory:[self cacheKey:URLRequest.URL]]]) {
         [self parseWithCacheKey:[self cacheKey:URLRequest.URL] completionBlock:^(SVGAVideoEntity * _Nonnull videoItem) {
             if (completionBlock) {
@@ -59,7 +59,7 @@
         }];
         return;
     }
-    
+    // 拦截处理，优先获取缓存在内存中的数据
     if (self.enabledMemoryCache) {
         SVGAVideoEntity *cacheItem = [SVGAVideoEntity readCache:[self cacheKey:URLRequest.URL]];
         if (cacheItem != nil) {
