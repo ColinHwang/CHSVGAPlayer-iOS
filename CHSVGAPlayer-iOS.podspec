@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHSVGAPlayer-iOS'
-  s.version          = '0.0.1'
+  s.version          = '1.0.0'
   s.summary          = '基于YYCache对SVGAPlayeri-iOS缓存策略的优化改造'
   s.homepage         = 'https://github.com/ColinHwang/CHSVGAPlayer-iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
