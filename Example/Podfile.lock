@@ -1,0 +1,16 @@
+PODS:
+  - CHSVGAPlayer-iOS (0.1.0)
+
+DEPENDENCIES:
+  - CHSVGAPlayer-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  CHSVGAPlayer-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CHSVGAPlayer-iOS: bec4fefd8a91c611b39889fbfb2c34f38899685a
+
+PODFILE CHECKSUM: 28e5b048f0a3e24fc2e93215afb47bb123977d78
+
+COCOAPODS: 1.9.0

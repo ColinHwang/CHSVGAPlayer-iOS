@@ -1,0 +1,6 @@
+framework module CHSVGAPlayer_iOS {
+  umbrella header "CHSVGAPlayer-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
