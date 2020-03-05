@@ -11,6 +11,9 @@
 
 static YYCache *chVideoCache;
 
+@interface SVGAVideoEntity () <NSCoding>
+@end
+
 @implementation SVGAVideoEntity (CHSVGA)
 
 #pragma mark - Life cycle
@@ -43,6 +46,5 @@ static YYCache *chVideoCache;
 - (void)_ch_svga_saveCache:(NSString *)cacheKey {
     [chVideoCache setObject:self forKey:cacheKey];
 }
-
 
 @end
