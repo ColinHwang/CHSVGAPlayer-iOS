@@ -1,7 +1,7 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CHSVGAPlayer-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/YYCache"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CHSVGAPlayer-iOS/CHSVGAPlayer_iOS.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYCache/YYCache.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -l"sqlite3" -framework "CHSVGAPlayer_iOS" -framework "CoreFoundation" -framework "QuartzCore" -framework "UIKit" -framework "YYCache"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CHSVGAPlayer-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/Protobuf" "${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive" "${PODS_CONFIGURATION_BUILD_DIR}/SVGAPlayer" "${PODS_CONFIGURATION_BUILD_DIR}/YYCache"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CHSVGAPlayer-iOS/CHSVGAPlayer_iOS.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/protobuf.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive/SSZipArchive.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SVGAPlayer/SVGAPlayer.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYCache/YYCache.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -l"iconv" -l"sqlite3" -l"z" -framework "AVFoundation" -framework "CHSVGAPlayer_iOS" -framework "CoreFoundation" -framework "QuartzCore" -framework "SSZipArchive" -framework "SVGAPlayer" -framework "Security" -framework "UIKit" -framework "YYCache" -framework "protobuf"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

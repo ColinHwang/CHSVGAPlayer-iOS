@@ -22,6 +22,9 @@
   "dependencies": {
     "YYCache": [
 
+    ],
+    "SVGAPlayer": [
+      "~> 2.3"
     ]
   }
 }

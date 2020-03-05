@@ -1,6 +1,17 @@
 PODS:
   - CHSVGAPlayer-iOS (0.0.1):
+    - SVGAPlayer (~> 2.3)
     - YYCache
+  - Protobuf (3.11.4)
+  - SSZipArchive (2.2.2)
+  - SVGAPlayer (2.5.2):
+    - SVGAPlayer/Core (= 2.5.2)
+    - SVGAPlayer/ProtoFiles (= 2.5.2)
+  - SVGAPlayer/Core (2.5.2):
+    - SSZipArchive (>= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.5.2):
+    - Protobuf (~> 3.4)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
@@ -8,6 +19,9 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Protobuf
+    - SSZipArchive
+    - SVGAPlayer
     - YYCache
 
 EXTERNAL SOURCES:
@@ -15,7 +29,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CHSVGAPlayer-iOS: 930daed0d7fef42c285548b76dba6ca72c335423
+  CHSVGAPlayer-iOS: 67d090515519418e7bb030915ecda836fefa96d9
+  Protobuf: 176220c526ad8bd09ab1fb40a978eac3fef665f7
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+  SVGAPlayer: c666a7886b72ee77d494c49aa4fd61df175dd103
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
 PODFILE CHECKSUM: aba9a777669e350c03df4aea3fa530789ade63f9

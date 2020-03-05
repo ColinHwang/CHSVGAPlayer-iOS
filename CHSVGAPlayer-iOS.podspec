@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.source_files = 'CHSVGAPlayer-iOS/Classes/**/*'
   s.requires_arc = true
   s.dependency 'YYCache'
-  #s.dependency 'SVGAPlayer-iOS'
+  s.dependency 'SVGAPlayer', '~> 2.3'
 end
