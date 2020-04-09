@@ -29,13 +29,16 @@ static YYCache *chVideoCache;
 }
 
 #pragma mark - Public methods
++ (void)chsvga_setupMemoryCacheCostLimit:(NSUInteger)costLimit {
+    [chVideoCache.memoryCache setCostLimit:costLimit];
+}
 
 + (void)chsvga_clearMemoryCache {
     [chVideoCache.memoryCache removeAllObjects];
 }
 
-+ (void)chsvga_setupMemoryCacheCostLimit:(NSUInteger)costLimit {
-    [chVideoCache.memoryCache setCostLimit:costLimit];
++ (void)chsvga_removeCache:(NSString *)key {
+    [chVideoCache removeObjectForKey:key];
 }
 
 #pragma mark - Swizzle methods

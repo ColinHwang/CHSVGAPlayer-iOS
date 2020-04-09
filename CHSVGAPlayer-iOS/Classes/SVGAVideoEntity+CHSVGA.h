@@ -23,6 +23,13 @@ NS_ASSUME_NONNULL_BEGIN
 */
 + (void)chsvga_clearMemoryCache;
 
+/**
+ 根据Key, 移除对应的缓存数据
+
+ @param key Key
+*/
++ (void)chsvga_removeCache:(NSString *)key;
+
 @end
 
 NS_ASSUME_NONNULL_END
